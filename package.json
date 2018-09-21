@@ -1,6 +1,6 @@
 {
   "name": "lambda-call-aws-sdk",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A common Lambda to call any AWS service via AWS SDK",
   "main": "lambda-call-aws-sdk.js",
   "author": {
