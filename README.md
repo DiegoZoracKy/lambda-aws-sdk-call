@@ -11,9 +11,6 @@ A common Lambda to call any AWS service via AWS SDK. It is based on the AWSJavaS
         "region": "us-east-1"
     },
     "service": "Lambda",
-    "serviceOptions": {
-        "region": "us-east-1"
-    },
     "method": "listFunctions"
 }
 ```
