@@ -1,3 +1,4 @@
+// Version: 0.0.1, Source: https://github.com/DiegoZoracKy/lambda-aws-sdk-call
 const AWS = require('aws-sdk');
 
 exports.handler = ({AWSConfig, service, serviceOptions, method, params}) => {
