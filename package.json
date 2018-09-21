@@ -1,0 +1,15 @@
+{
+  "name": "lambda-call-aws-sdk",
+  "version": "1.0.0",
+  "description": "A common Lambda to call any AWS service via AWS SDK",
+  "main": "lambda-call-aws-sdk.js",
+  "author": {
+    "name": "Diego ZoracKy",
+    "email": "diego.zoracky@gmail.com",
+    "url": "https://github.com/DiegoZoracKy/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.319.0"
+  }
+}
