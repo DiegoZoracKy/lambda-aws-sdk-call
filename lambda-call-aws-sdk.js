@@ -11,13 +11,13 @@ exports.handler = ({AWSConfig, service, serviceOptions, method, params}) => {
             if(err){
                 return resolve({
                     statusCode: err.statusCode,
-                    body: JSON.stringify(err)
+                    body: err
                 });
             }
 
             return resolve({
                 statusCode: 200,
-                body: JSON.stringify(res)
+                body: res
             });
         });
     });
