@@ -10,7 +10,7 @@ https://github.com/DiegoZoracKy/lambda-aws-sdk-call/blob/master/lambda-call-aws-
 
 ## Example
 
-Example of an input to call the [lambda's listFunctions](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Lambda.html#listFunctions-property), defining the param *MaxItems* equals to 1:
+Example of an input to call [lambda's listFunctions](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Lambda.html#listFunctions-property) method defining the param *MaxItems* equals to 1:
 
 **Input**
 ```javascript
