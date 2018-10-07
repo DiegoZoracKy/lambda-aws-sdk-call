@@ -16,7 +16,7 @@ exports.handler = ({AWSConfig, service, serviceOptions, method, params}) => {
             }
 
             return resolve({
-                statusCode: 200,
+                statusCode: res.statusCode,
                 body: res
             });
         });
